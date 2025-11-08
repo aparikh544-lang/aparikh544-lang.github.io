@@ -1,18 +1,36 @@
 .p {
     text-align: center;
-    font-family: 'Sans Serif', sans-serif;
+    font-family: 'Verdana', sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 16px;
-    background-color: aquamarine;
+    background-color: beige;
     line-height: 1.35;
+    padding: 10px;
+    border-radius: 25px;
 }
 
 .h1 {
+    font-family: 'Verdana', sans-serif;
     padding: 30px;
     font-size: 50px;
-    background-color: rgb(128, 240, 203);
+    background-color: beige;
     margin-left: 40%;
     margin-right: 40%;
     text-align: center;
+    border-radius: 25px;
+}
+
+.list {
+    font-size: 16px;
+    background-color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.img {
+    margin: 10px;
+    border-radius: 25px;
 }
