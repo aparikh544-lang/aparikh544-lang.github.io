@@ -1,14 +1,13 @@
 .p {
     text-align: center;
     font-family: 'Verdana', sans-serif;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 16px;
     background-color: beige;
     line-height: 1.5;
     padding: 10px;
     border-radius: 25px;
-    margin-bottom: 15px;
 }
 
 .h1 {
@@ -21,6 +20,7 @@
     text-align: center;
     border-radius: 25px;
     width: auto;
+    margin-bottom: 15px;
 }
 
 .list {
@@ -36,6 +36,10 @@
 .img {
     margin: 10px;
     border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 10%;
 }
 
 .h4 {
@@ -47,6 +51,21 @@
     margin-right: auto;
     text-align: center;
     border-radius: 25px;
-    margin-top: 25px;
+    margin-top: 40px;
     width: auto;
+    margin-bottom: 15px;
+}
+
+.h6 {
+    font-family: 'Verdana', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 40px;
+    width: auto;
+    margin-bottom: 15px;
 }
