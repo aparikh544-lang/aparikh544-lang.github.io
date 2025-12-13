@@ -11,38 +11,38 @@
         <p class="p">The first step in solving the last layer is to solve the top edges. These are usually colored yellow (if you followed our color scheme).</p>
         <h6 class="h6">Step 1a: Forming the Yellow Cross</h6>
         <p class="p">After solving the Second Layer, the next step is to form the yellow cross on the top face by orienting the last layer edges correctly. You will get one of the 3 cases shown below. Just perform the algorithm shown for your case to get the yellow cross.</p>
-        <img src="images/dot.png" alt="Dot Case" class="img">
+        <img src="beginner_images/dot.png" alt="Dot Case" class="img">
         <p class="p"><strong>F R U R' U' F' f R U R' U' f'</strong></p>
-        <img src="images/l_shape.png" alt="L Shape Case" class="img">
+        <img src="beginner_images/l_shape.png" alt="L Shape Case" class="img">
         <p class="p"><strong>f R U R' U' f'</strong></p>
-        <img src="images/line.png" alt="Line Case" class="img">
+        <img src="beginner_images/line.png" alt="Line Case" class="img">
         <p class="p"><strong>F R U R' U' F'</strong></p>
         <p class="p">Note: If you already have the yellow cross, you can proceed to the next step.  </p>
         <h6 class="h6">Step 1b: Putting the Edges in the Right Places</h6>
         <p class="p">Once you have the yellow cross, the next step is to solve the edges. Depending on the case you get, follow the steps below and you can successfully position the edges in their correct places.</p>
         <p class="p"><strong>NOTE: It is important that you first align the top layer so that one edge matches only.</strong></p>
-        <img src="images/oll_normal_case.png" alt="Case 1" class="img">
+        <img src="beginner_images/oll_normal_case.png" alt="Case 1" class="img">
         <p class="p">When 3 edges need to be placed correctly: <strong>R U R' U R U2 R'</strong></p>
-        <img src="images/oll_adjacent.png" alt="Case 2" class="img">
+        <img src="beginner_images/oll_adjacent.png" alt="Case 2" class="img">
         <p class="p">When 2 adjacent edges need to be placed correctly: <strong>Turn the top layer once. You should now have the case shown above, solve as described above.</strong></p>
-        <img src="images/oll_opposite.png" alt="Case 3" class="img">
+        <img src="beginner_images/oll_opposite.png" alt="Case 3" class="img">
         <p class="p">When 2 opposite edges need to be placed correctly: <strong>Repeat algorithm above. You should now have the first case, solve as described above.</strong>
         <h4 class="h4">Step 2: Solving the Corners</h4>
         <p class="p">With the edges solved, the next step is to solve the corners of the last layer. Once again, these are usually yellow (if you followed our color scheme).</p>
         <p class="p"><strong>Note: Remember not to turn the top layer freely. The edges must remain aligned.</strong></p>
         <h6 class="h6">Step 2a: Positioning the Corners</h6>
         <p class="p">The first step in solving the corners is to position them correctly. A correctly positioned corner doesn't have to be solved, as the corner below is also positioned correctly.</p>
-        <img src="images/good_corner.png" alt="Correctly Positioned Corner" class="img">
+        <img src="beginner_images/good_corner.png" alt="Correctly Positioned Corner" class="img">
         <p class="p">Once you have a corner positioned correctly, keep it facing towards you and on the right. Then, perform the algorithm <strong>U R U' L' U R' U' L</strong> until all the corners are positioned correctly.</p>
-        <img src="images/corners.png" alt="Positioned Corners" class="img">
+        <img src="beginner_images/corners.png" alt="Positioned Corners" class="img">
         <p class="p"><strong>Special Case: </strong>If you don't have any corners positioned correctly, perform the algorithm from any angle until you get at least one corner positioned correctly.</p>
         <h6 class="h6">Step 2b: Solving the Corners (LAST STEP)</h6>
         <p class="p">With all the corners positioned correctly, the final step is to solve them. Hold the cube so that an unsolved corner is on the front-right-top position. Then, repeat the algorithm below until the corner is solved. <strong>Note: The bottom layer WILL be messed up in this step. Hang on for now.</strong></p>
-        <img src="images/unsolved_corner.png" alt="Unsolved Corner" class="img">
+        <img src="beginner_images/unsolved_corner.png" alt="Unsolved Corner" class="img">
         <p class="p"><strong>R' D' R D</strong></p>
         <p class="p">Once the corner is solved, <strong>rotate ONLY the top layer (not the whole cube)</strong> to the next unsolved corner and repeat the algorithm until all corners are solved.</p>
         <p class="p">If done correctly, the bottom layer will solve itself as you complete the last step.</p>
         <p class="p">Congratulations! You have successfully solved the Rubik's Cube!</p>
-        <img src="images/cube.png" alt="Solved Cube" class="img">
+        <img src="beginner_images/cube.png" alt="Solved Cube" class="img">   
     </body>
 </html>
