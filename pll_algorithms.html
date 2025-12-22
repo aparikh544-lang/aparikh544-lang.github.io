@@ -10,69 +10,68 @@
         PLL is a crucial step in the CFOP method, where the goal is to permute the pieces of the last layer so that the entire top face is a single color. This section provides detailed algorithms for each of the 21 possible PLL cases, along with tips and tricks to execute them efficiently.</p>
         <p class="p">Explore the algorithms below to enhance your cubing skills and improve your solve times!</p>
         <p class="p"><a href="notations.html">If you don't know any of the moves, here is a link to the notations page.</a></p>
-       
-        <img src="pll_algs/aaperm.png" alt="Aa Perm" class="img">
+        </br>
+        <img src="pll_algs/aaperm.png" alt="Aa Perm" class="pllimg">
         <p class="p"><strong>Aa Perm: x L2 D2 L' U' L D2 L' U L'</strong></p>
-
-        <img src="pll_algs/abperm.png" alt="Ab Perm" class="img">
+        </br>
+        <img src="pll_algs/abperm.png" alt="Ab Perm" class="pllimg">
         <p class="p"><strong>Ab Perm: x' L2 D2 L U L' D2 L U' L</strong></p>
-
-        <img src="pll_algs/eperm.png" alt="E Perm" class="img">
+        </br>
+        <img src="pll_algs/eperm.png" alt="E Perm" class="pllimg">
         <p class="p"><strong>E Perm: x' R U' R' D R U R' D' R U R' D R U' R' D'</strong></p>
-
-        <img src="pll_algs/fperm.png" alt="F Perm" class="img">
+        </br>
+        <img src="pll_algs/fperm.png" alt="F Perm" class="pllimg">
         <p class="p"><strong>F Perm: R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R</strong></p>
-            
-        <img src="pll_algs/gaperm.png" alt="Ga Perm" class="img">
+        </br> 
+        <img src="pll_algs/gaperm.png" alt="Ga Perm" class="pllimg">
         <p class="p"><strong>Ga Perm: R2 U R' U R' U' R U' R2 U' D R' U R D'</strong></p>
-        
-        <img src="pll_algs/gbperm.png" alt="Gb Perm" class="img">
+        </br>
+        <img src="pll_algs/gbperm.png" alt="Gb Perm" class="pllimg">
         <p class="p"><strong>Gb Perm: R' U' R U D' R2 U R' U R U' R U' R2 D</strong></p>
-
-        <img src="pll_algs/gcperm.png" alt="Gc Perm" class="img">
+        </br>
+        <img src="pll_algs/gcperm.png" alt="Gc Perm" class="pllimg">
         <p class="p"><strong>Gc Perm: R2 U' R U' R U R' U R2 U D' R U' R' D</strong></p>
-            
-        <img src="pll_algs/gdperm.png" alt="Gd Perm" class="img">
+        </br> 
+        <img src="pll_algs/gdperm.png" alt="Gd Perm" class="pllimg">
         <p class="p"><strong>Gd Perm: R2 U' R U' R U R' U R2 U D' R U' R' D</strong></p>
-            
-        <img src="pll_algs/hperm.png" alt="H Perm" class="img">
+        </br>  
+        <img src="pll_algs/hperm.png" alt="H Perm" class="pllimg">
         <p class="p"><strong>H Perm: M2 U M2 U M2 U M2</strong></p>
-
-        <img src="pll_algs/japerm.png" alt="Ja Perm" class="img">
+        </br>
+        <img src="pll_algs/japerm.png" alt="Ja Perm" class="pllimg">
         <p class="p"><strong>Ja Perm: x R2 F R F' R U2 r' U r U2</strong></p>
-            
-        <img src="pll_algs/jbperm.png" alt="Jb Perm" class="img">
+        </br>
+        <img src="pll_algs/jbperm.png" alt="Jb Perm" class="pllimg">
         <p class="p"><strong>Jb Perm: R U R' F' R U R' U' R' F R2 U' R'</strong></p>
-            
-        <img src="pll_algs/naperm.png" alt="Na Perm" class="img">
-        <p class="p"><strong>Na Perm: z U R' D R2 U' R D' U R' D R2 U' R D'</strong></p>
-
-        <img src="pll_algs/nbperm.png" alt="Nb Perm" class="img">
+        </br>
+        <img src="pll_algs/naperm.png" alt="Na Perm" class="pllimg">
+        <p class="p"><strong>Na Perm: R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'</strong></p>
+        </br>
+        <img src="pll_algs/nbperm.png" alt="Nb Perm" class="pllimg">
         <p class="p"><strong>Nb Perm: R' U R U' R' F' U' F R U R' F R' F' R U' R</strong></p>
-            
-        <img src="pll_algs/raperm.png" alt="Ra Perm" class="img">
-        <p class="p"><strong>Ra Perm: R U' R' U' R U R D R' U' R D' R' U2 R'</strong></p>
-            
-        <img src="pll_algs/rbperm.png" alt="Rb Perm" class="img">
-        <p class="p"><strong>Rb Perm: R2 F R U R U' R' F' R U2 R' U2 R</strong></p>
-
-        <img src="pll_algs/tperm.png" alt="T Perm" class="img">
+        </br>
+        <img src="pll_algs/raperm.png" alt="Ra Perm" class="pllimg">
+        <p class="p"><strong>Ra Perm: y' L U2 L' U2 L F' L' U' L U L F L2' U</strong></p>
+        </br>
+        <img src="pll_algs/rbperm.png" alt="Rb Perm" class="pllimg">
+        <p class="p"><strong>Rb Perm: R' U2 R U2' R' F R U R' U' R' F' R2 U'</strong></p>
+        </br>
+        <img src="pll_algs/tperm.png" alt="T Perm" class="pllimg">
         <p class="p"><strong>T Perm: R U R' U' R' F R2 U' R' U' R U R' F'</strong></p>
-            
-        <img src="pll_algs/uaperm.png" alt="Ua Perm" class="img">
+        </br>
+        <img src="pll_algs/uaperm.png" alt="Ua Perm" class="pllimg">
         <p class="p"><strong>Ua Perm: M2 U M U2 M' U M2</strong></p>
-
-            
-        <img src="pll_algs/ubperm.png" alt="Ub Perm" class="img">
+        </br>
+        <img src="pll_algs/ubperm.png" alt="Ub Perm" class="pllimg">
         <p class="p"><strong>Ub Perm: M2 U' M U2 M' U' M2</strong></p>
-
-        <img src="pll_algs/vperm.png" alt="V Perm" class="img">
+        </br>
+        <img src="pll_algs/vperm.png" alt="V Perm" class="pllimg">
         <p class="p"><strong>V Perm: R' U R' U' y R' F' R2 U' R' U R' F R F</strong></p>
-
-        <img src="pll_algs/yperm.png" alt="Y Perm" class="img">
+        </br>
+        <img src="pll_algs/yperm.png" alt="Y Perm" class="pllimg">
         <p class="p"><strong>Y Perm: F R U' R' U' R U R' F' R U R' U' R' F R F'</strong></p>
-
-        <img src="pll_algs/zperm.png" alt="Z Perm" class="img">
+        </br>
+        <img src="pll_algs/zperm.png" alt="Z Perm" class="pllimg">
         <p class="p"><strong>Z Perm: M' U M2 U M2 U M' U2 M2 U'</strong></p>
     </body>
 </html>
